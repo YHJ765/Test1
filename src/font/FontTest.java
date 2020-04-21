@@ -5,10 +5,6 @@ import java.awt.font.*;
 import java.awt.geom.*;
 import javax.swing.*;
 
-/**
- * @version 1.35 2018-04-10
- * @author Cay Horstmann
- */
 public class FontTest
 {
     public static void main(String[] args)
@@ -22,7 +18,7 @@ public class FontTest
         });
     }
 }
-
+//
 /**
  * A frame with a text message component.
  */
