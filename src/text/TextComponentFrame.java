@@ -45,5 +45,6 @@ public class TextComponentFrame extends JFrame
 
         add(southPanel, BorderLayout.SOUTH);
         pack();
+        //
     }
 }

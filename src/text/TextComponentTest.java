@@ -16,6 +16,7 @@ public class TextComponentTest
             frame.setTitle("TextComponentTest");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setVisible(true);
+            //
         });
     }
 }
