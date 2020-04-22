@@ -1,19 +1,19 @@
-package text;
+package checkBox;
 
 import java.awt.*;
 import javax.swing.*;
 
 /**
- * @version 1.42 2018-04-10
+ * @version 1.35 2018-04-10
  * @author Cay Horstmann
  */
-public class TextComponentTest
+public class CheckBoxTest
 {
     public static void main(String[] args)
     {
         EventQueue.invokeLater(() -> {
-            TextComponentFrame frame = new TextComponentFrame();
-            frame.setTitle("TextComponentTest");
+            CheckBoxFrame frame = new CheckBoxFrame();
+            frame.setTitle("CheckBoxTest");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setVisible(true);
         });
