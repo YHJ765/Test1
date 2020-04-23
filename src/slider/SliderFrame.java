@@ -10,7 +10,7 @@ public class SliderFrame extends JFrame
     private JPanel sliderPanel;
     private JTextField textField;
     private ChangeListener listener;
-
+//
     public SliderFrame()
     {
         sliderPanel = new JPanel();
