@@ -26,7 +26,7 @@ public class ComboBoxFrame extends JFrame
         faceCombo.addItem("Monospaced");
         faceCombo.addItem("Dialog");
         faceCombo.addItem("DialogInput");
-//
+
         faceCombo.addActionListener(event ->
                 label.setFont(
                         new Font(faceCombo.getItemAt(faceCombo.getSelectedIndex()),
