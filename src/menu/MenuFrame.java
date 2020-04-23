@@ -94,7 +94,7 @@ public class MenuFrame extends JFrame
         optionMenu.addSeparator();
         optionMenu.add(insertItem);
         optionMenu.add(overtypeItem);
-//
+
         editMenu.addSeparator();
         editMenu.add(optionMenu);
 
