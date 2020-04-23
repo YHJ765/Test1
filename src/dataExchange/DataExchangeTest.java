@@ -5,7 +5,7 @@ import javax.swing.*;
 
 /**
  * @version 1.35 2018-04-10
- * @author Cay Horstmann
+ * @author Cay Horstmann...
  */
 public class DataExchangeTest
 {
