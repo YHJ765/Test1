@@ -39,12 +39,16 @@ public class Demo07 {
             System.out.println(sql);
             ResultSet resultSet = statement.executeQuery();
             //  只返回一条数据
-            if(resultSet.next()) {
+            while(resultSet.next()) {
                 user = new User();
                 user.setDepartment(resultSet.getString("Department"));
                 user.setName(resultSet.getString("Name"));
                 user.setAddress(resultSet.getString("Address"));
                 user.setPhone(resultSet.getString("Phone"));
+                System.out.println(resultSet.getString(1));
+                System.out.println(resultSet.getString(2));
+                System.out.println(resultSet.getString(3));
+                System.out.println(resultSet.getString(4));
             }
         } catch (SQLException e) {
             // TODO Auto-generated catch block
