@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 //import com.mysql.jdbc.PreparedStatement;
-
+//
 public class Demo07 {
     static {
         try {

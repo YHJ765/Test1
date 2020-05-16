@@ -1,7 +1,7 @@
 package Input_FuzzySearch;
 
 import java.sql.Date;
-
+//
 public class User {
     // 对象中声明的属性名尽量和数据库中的字段相同
     private String Department;
